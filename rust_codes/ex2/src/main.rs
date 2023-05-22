@@ -6,7 +6,7 @@ enum Tipo {
 }
     
 fn main() {
-    let lista: Vec<Tipo> = vec![
+    let mut lista: Vec<Tipo> = vec![
         Tipo::String("item1".to_string()),
         Tipo::Int(2),
         Tipo::String("item".to_string()),
